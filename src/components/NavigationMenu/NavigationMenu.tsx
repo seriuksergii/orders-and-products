@@ -1,7 +1,7 @@
 import Image from 'react-bootstrap/Image';
 import './NavigationMenu.scss';
 import Row from 'react-bootstrap/Row';
-import { CategoriesLink } from '../CategoriesLink/CategoriesLink';
+import CategoriesLink from '../CategoriesLink/CategoriesLink';
 
 const pathname = [
   { label: '/orders', value: 'НАДХОДЖЕННЯ' },
