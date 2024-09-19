@@ -18,11 +18,7 @@ const TopMenu: React.FC = () => {
     <div className="top-menu">
       <div className="top-menu_container">
         <div className="top-menu_logo_input">
-          <img
-            className="top-menu_logo"
-            src="/src/assets/logo.png"
-            alt="logo"
-          />
+          <img className="top-menu_logo" src="/logo.png" alt="logo" />
           <span className="top-menu_title">inventory</span>
           <input
             className="top-menu_input"
