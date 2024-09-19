@@ -10,7 +10,7 @@
 
 2.	Clone the Repository:
 
-        git clone https://github.com/seriuksergii/users-list.git
+        git clone [https://github.com/seriuksergii/orders-and-products.git]
 
 3.	Install dependencies:
 
