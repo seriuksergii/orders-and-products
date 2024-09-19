@@ -25,17 +25,21 @@
 
 ## Technologies Used:
 
-•	Vue3
+•	React
 
-•	TypeScript
+•	React Router
 
-•	CSS
+•	Redux
 
-•        API JSONPlaceholder
+•       TypeScript
 
-•        Pinia
+•        SCSS
 
-•        UUID
+•        React Bootstrap
 
-•        axios
+•        React Icons
+
+•        Day.js
+
+•        Socket.IO Client
 
