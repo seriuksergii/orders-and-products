@@ -1,0 +1,190 @@
+.orders-container {
+  position: absolute;
+  font-family: Roboto, sans-serif;
+  top: 90px;
+  left: 270px;
+  right: 50px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  font-size: 14px;
+}
+
+.orders-length {
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+.orders-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.add-order {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.add-order-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(52, 197, 52);
+  border-radius: 50%;
+  color: #fff;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.orders-list-container {
+  display: flex;
+  flex: 1;
+  height: 100%;
+}
+
+.orders-list {
+  flex: 1;
+  overflow-y: auto;
+  transition: flex 0.3s ease;
+}
+
+.orders-list.shrink {
+  flex: 0.5;
+}
+
+.order-description {
+  flex: 1;
+  overflow-y: auto;
+  margin-left: 20px;
+  transition: flex 0.3s ease;
+  height: 100%;
+}
+
+.wrap-container-order {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 0;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  height: 30px;
+  overflow: hidden;
+}
+
+.arrow-icon-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #cfd8db;
+  width: 40px;
+  height: 100%;
+  border-radius: 0 5px 5px 0;
+}
+
+.arrow-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.order-main {
+  display: flex;
+  align-items: center;
+  flex: 3;
+}
+
+.order-delete-icon {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: auto;
+}
+
+.order-title {
+  flex: 1;
+  margin-right: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.order-icon-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.order-products {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  margin-left: 0;
+}
+
+.order-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  padding-right: 40px;
+}
+
+.order-date {
+  display: flex;
+  flex-direction: column;
+}
+
+.order-sum {
+  text-align: right;
+  margin-left: 20px;
+}
+
+.order-date p {
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+}
+
+.order-sum .sum-usd {
+  font-size: 12px;
+  color: #888;
+}
+
+.order-sum .sum-uah {
+  font-size: 14px;
+}
+
+.order-delete-icon {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 0.5;
+  padding-left: 10px;
+}
+
+.small-text-order {
+  font-size: 12px;
+  color: #888;
+}
+
+.wrap-container-order.active {
+  background-color: #f0f0f0;
+  border-color: #ddd;
+}

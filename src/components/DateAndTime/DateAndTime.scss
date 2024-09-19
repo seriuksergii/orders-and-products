@@ -1,0 +1,42 @@
+.data-container {
+  font-family: Roboto, sans-serif;
+  display: flex;
+  align-items: center; 
+  gap: 10px; 
+
+  .data-title {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 4px; 
+  }
+
+  .data-weekday {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  .data-month {
+    font-size: 14px;
+    color: #666;
+  }
+
+  .data-clock {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .data-clock_icon {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #7ada20;
+  }
+
+  /* Стиль часу */
+  .data-clock span {
+    font-size: 16px;
+    font-weight: 500;
+  }
+}

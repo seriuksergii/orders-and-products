@@ -1,0 +1,15 @@
+.link {
+  font-family: Roboto, sans-serif;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  margin: 20px 20px;
+  color: black;
+  text-decoration-color: white;
+}
+
+.active-link {
+  border-bottom: #79cc35 solid 2px;
+}
