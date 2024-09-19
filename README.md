@@ -6,7 +6,7 @@
 
 ## To run this project locally:
 
-1.	Create and open new directory: mkdir users-list/ cd users-list
+1.	Create and open new directory: mkdir orders-and-products/ cd orders-and-products
 
 2.	Clone the Repository:
 
